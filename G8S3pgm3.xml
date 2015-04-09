@@ -27,6 +27,42 @@
                     <field name="OBJECT">LEFTFRONT</field>
                   </block>
                 </value>
+                <next>
+                  <block type="oled_drawnumber" id="357" inline="true">
+                    <value name="NUMBER">
+                      <block type="sensor_object" id="358">
+                        <field name="OBJECT">RIGHTFRONT</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_drawnumber" id="359" inline="true">
+                        <value name="NUMBER">
+                          <block type="sensor_object" id="360">
+                            <field name="OBJECT">REAR</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawnumber" id="361" inline="true">
+                            <value name="NUMBER">
+                              <block type="sensor_object" id="362">
+                                <field name="OBJECT">LEFTSIDE</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="oled_drawnumber" id="363" inline="true">
+                                <value name="NUMBER">
+                                  <block type="sensor_object" id="364">
+                                    <field name="OBJECT">RIGHTSIDE</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
